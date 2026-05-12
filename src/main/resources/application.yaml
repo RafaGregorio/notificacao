@@ -27,5 +27,5 @@ spring:
 
 envio:
   email:
-    remetente:
+    remetente: ${MAIL_USERNAME}
     nomeRemetente: 'NotificationRafaApp'
